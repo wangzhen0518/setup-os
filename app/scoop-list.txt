@@ -21,6 +21,7 @@ llvm
 magic-wormhole
 miktex
 mingw
+mise
 motrix
 nasm
 openssl
