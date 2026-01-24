@@ -15,5 +15,4 @@ ripgrep
 sendme
 tokei
 wasm-bindgen-cli
-wasm-opt
 wasm-pack
