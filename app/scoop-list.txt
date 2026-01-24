@@ -1,5 +1,6 @@
 7zip
 Maple-Mono-NF-CN
+aria2
 binaryen
 bun
 chsrc
@@ -30,9 +31,7 @@ picgo
 restic
 scoop-search
 sudo
-v2rayn
 wabt
 wget
 xmake
-xray
 zig
