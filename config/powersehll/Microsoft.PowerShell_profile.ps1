@@ -55,7 +55,7 @@ function ssh-copy-id([string]$userAtMachine, $args){
         Write-Error "ERROR: failed to open ID file '$publicKey': No such file"            
     }
     else {
-        & cat "$publicKey" | ssh $args $userAtMachine "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys || exit 1"      
+        & Get-Content "$publicKey" | ssh $args $userAtMachine "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys || exit 1"      
     }
 }
 #-------------------------------   Set Network END  ----------------------------------
