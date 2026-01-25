@@ -1,1 +1,3 @@
 corepack enable pnpm
+npm config set registry https://mirrors.cloud.tencent.com/npm/
+pnpm config -g set registry https://mirrors.cloud.tencent.com/npm/
