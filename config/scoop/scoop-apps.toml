@@ -33,12 +33,21 @@ basic = [
     "restic",
     "scoop-search",
     "sudo",
+    "uv",
+    "vscode",
     "wabt",
     "wget",
-    "xmake",
-    "zig",
     "wireshark",
+    "xmake",
     "yaak",
-    "vscode"
+    "zig",
 ]
-hold = ["bun", "deno", "go", "llvm", "openssl", "postgresql", "wireshark"]
+hold = [
+    "bun",
+    "deno",
+    "go",
+    "llvm",
+    "openssl",
+    "postgresql",
+    "wireshark",
+]
