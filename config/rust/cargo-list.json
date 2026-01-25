@@ -1,0 +1,19 @@
+[
+    "bottom",
+    "cargo-expand",
+    "cargo-generate",
+    "cargo-ndk",
+    "cargo-sweep",
+    "cargo-update",
+    "evcxr_repl",
+    "eza",
+    "fd-find",
+    "genact",
+    "prek",
+    "puffin_viewer",
+    "ripgrep",
+    "sendme",
+    "tokei",
+    "wasm-bindgen-cli",
+    "wasm-pack"
+]
